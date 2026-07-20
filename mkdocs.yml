@@ -12,21 +12,21 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: teal
-      accent: amber
+      primary: blue grey
+      accent: blue grey
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: teal
-      accent: amber
+      primary: blue grey
+      accent: blue grey
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   font:
-    text: Inter
-    code: JetBrains Mono
+    text: Roboto
+    code: Roboto Mono
   features:
     - navigation.tabs
     - navigation.sections
@@ -43,8 +43,6 @@ social:
     link: https://github.com/arielarigossi
   - icon: fontawesome/brands/linkedin
     link: https://www.linkedin.com/in/ariel-arigossi-835232182/
-  - icon: fontawesome/globe
-    link: https://aarigossi.ddns.net/wp
 
 extra_css:
   - stylesheets/extra.css

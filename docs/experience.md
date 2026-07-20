@@ -6,9 +6,9 @@
 
 <div class="timeline-item" markdown>
 
-### System Administrator
+### Linux System Administrator
 
-**Ministerio Publico Fiscal** · Corrientes, Argentina
+**Government Agency** · Corrientes, Argentina
 
 :material-calendar: 2015 – Present
 
@@ -24,9 +24,9 @@
 
 <div class="timeline-item" markdown>
 
-### IT Forensic & Law Enforcement Consultant
+### IT Forensic & Digital Evidence Consultant
 
-**Ministerio Publico Fiscal** · Corrientes, Argentina
+**Government Agency** · Corrientes, Argentina
 
 :material-calendar: 2015 – 2023
 

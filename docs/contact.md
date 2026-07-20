@@ -26,15 +26,6 @@ Get in touch with me through any of the following channels:
 
 </div>
 
-<div class="contact-card" markdown>
-
-:fontawesome-globe:{ .lg }
-**Website**
-
-[aarigossi.ddns.net/wp](https://aarigossi.ddns.net/wp)
-
-</div>
-
 </div>
 
 ---
