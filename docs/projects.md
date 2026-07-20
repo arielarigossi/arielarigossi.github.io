@@ -118,3 +118,77 @@ An interactive Bash script for tuning Linux server performance with real-time ve
 - Auto-detects SSD vs HDD and suggests appropriate I/O scheduler
 - CPU governor control with persistence hints
 - Real-time verification that applied settings match expected values
+
+---
+
+## MusicNamer
+
+<div class="project-card" markdown>
+
+**Batch Music File Renamer**
+
+A PyQt5 desktop application for batch renaming audio files using music fingerprinting and metadata lookup services.
+
+:material-tag: `Python` `PyQt5` `MusicBrainz` `AcoustID`
+
+[:fontawesome-brands-github: Source Code](https://github.com/arielarigossi/MusicNamer){ .md-button .md-button--primary }
+
+</div>
+
+**Key features:**
+
+- AcoustID audio fingerprinting for song identification
+- MusicBrainz fuzzy metadata search
+- Embedded tag reading from audio files
+- Filename guessing with guessit
+- Batch rename with preview and title case formatting
+- Modular package structure with proper entry points
+
+---
+
+## AppReflejo
+
+<div class="project-card" markdown>
+
+**Android Forensic Report Tool**
+
+A PyQt5 desktop application for capturing Android device screenshots and generating forensic HTML reports with SHA256 hashing.
+
+:material-tag: `Python` `PyQt5` `ADB` `Forensics`
+
+[:fontawesome-brands-github: Source Code](https://github.com/arielarigossi/AppReflejo){ .md-button .md-button--primary }
+
+</div>
+
+**Key features:**
+
+- Device info retrieval via ADB
+- Screenshot capture with SHA256 integrity hashing
+- HTML report generation with metadata and evidence tables
+- scrcpy integration for screen mirroring
+- Designed for digital forensic documentation workflows
+
+---
+
+## tmux-manager
+
+<div class="project-card" markdown>
+
+**tmux Session Manager GUI**
+
+A PyQt5 desktop application for managing tmux sessions with real-time CPU/memory monitoring and system tray integration.
+
+:material-tag: `Python` `PyQt5` `tmux` `Linux`
+
+[:fontawesome-brands-github: Source Code](https://github.com/arielarigossi/tmux-manager){ .md-button .md-button--primary }
+
+</div>
+
+**Key features:**
+
+- Create, attach, detach, and kill tmux sessions from a GUI
+- Real-time per-session CPU and memory monitoring via psutil
+- Event logging with CSV/JSON/text export
+- System tray icon with notifications
+- Configurable terminal emulator, shell, and refresh intervals
+- External QSS theme for customizable styling

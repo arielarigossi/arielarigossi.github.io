@@ -43,8 +43,8 @@
 
 <div class="skill-grid" markdown>
 
-:language-python: **Python**
-:language-bash: **Shell / Bash**
+:simple-python: **Python**
+:simple-bash: **Shell / Bash**
 :material-database: **SQL / SQLite**
 :material-language-html5: **HTML / CSS**
 :material-graph: **Matplotlib**
@@ -56,7 +56,7 @@
 <div class="skill-grid" markdown>
 
 :simple-docker: **Docker & Docker Compose**
-:material虚拟化: **Virtualization (KVM/QEMU)**
+:material-server: **Virtualization (KVM/QEMU)**
 :material-github: **CI/CD & GitHub Actions**
 :material-server-network: **Apache HTTPD**
 :material-web: **Web Server Management**
