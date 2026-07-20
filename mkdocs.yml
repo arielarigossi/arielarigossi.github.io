@@ -1,0 +1,68 @@
+site_name: Ariel Arigossi
+site_url: https://arielarigossi.github.io
+site_author: Ariel Arigossi
+site_description: Linux System Administrator & IT Forensic Consultant
+
+repo_name: arielarigossi/arielarigossi.github.io
+repo_url: https://github.com/arielarigossi/arielarigossi.github.io
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/arielarigossi
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/in/ariel-arigossi-835232182/
+  - icon: fontawesome/globe
+    link: https://aarigossi.ddns.net/wp
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+  - def_list
+
+nav:
+  - About: index.md
+  - Skills: skills.md
+  - Projects: projects.md
+  - Experience: experience.md
+  - Contact: contact.md
