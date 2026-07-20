@@ -1,0 +1,55 @@
+site_name: Ariel Arigossi
+site_url: https://arielarigossi.github.io
+site_description: Linux System Administrator & IT Forensic Consultant
+
+repo_name: arielarigossi/arielarigossi.github.io
+repo_url: https://github.com/arielarigossi/arielarigossi.github.io
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+
+nav:
+  - About: index.md
+  - Skills: skills.md
+  - Projects: projects.md
+  - Experience: experience.md
+  - Contact: contact.md
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/arielarigossi
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ariel-arigossi-835232182/
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/user/arielarigossi/
+
+copyright: Copyright &copy; 2026 Ariel Arigossi
