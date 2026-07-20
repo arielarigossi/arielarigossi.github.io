@@ -38,11 +38,12 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
-social:
-  - icon: fontawesome/brands/github
-    link: https://github.com/arielarigossi
-  - icon: fontawesome/brands/linkedin
-    link: https://www.linkedin.com/in/ariel-arigossi-835232182/
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/arielarigossi
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ariel-arigossi-835232182/
 
 extra_css:
   - stylesheets/extra.css
